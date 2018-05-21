@@ -5,7 +5,7 @@ app.get("/", (request, response) => {
   response.json([
     {
       "action": "connect",
-      "eventUrl": ["https://example.com/events"],
+      "eventUrl": [`${process.env.EVENTS_URL}`],
       "from": `${process.env.FROM_NUMBER}`,
       "endpoint": [
         {
