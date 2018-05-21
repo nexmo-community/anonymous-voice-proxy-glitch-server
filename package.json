@@ -13,7 +13,7 @@
     "express": "^4.16.3"
   },
   "engines": {
-    "node": "9.x"
+    "node": "10.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/my-glitch-app"
